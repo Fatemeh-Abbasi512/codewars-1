@@ -11,7 +11,18 @@ function solution(str){
     const result = reverse.join('');
     return result;
     };
-
+// Flick Switch
+function flickSwitch(arr){
+  let flickMode = false;
+  const result = [];
+  for (const item of arr) {
+    if (item === "flick") {
+      flickMode = !flickMode;
+    }
+    result.push(!flickMode);
+  }
+  return result;
+  }
 
 //Simple Change Machine
 
