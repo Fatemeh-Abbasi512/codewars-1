@@ -23,6 +23,16 @@ function flickSwitch(arr){
   }
   return result;
   }
+//Powers of 2
+function powersOfTwo(n){
+    const result =[];
+    for (let i = 0; i <= n ; i++) {
+        // console.log(i);
+        result.push(2 ** i);
+    }
+    
+    return result;
+  }
 
 //Simple Change Machine
 
